@@ -536,6 +536,6 @@ source "drivers/misc/eeprom/Kconfig"
 source "drivers/misc/cb710/Kconfig"
 source "drivers/misc/iwmc3200top/Kconfig"
 source "drivers/misc/video_core/720p/Kconfig"
-source "drivers/misc/vidc/Kconfig
+source "drivers/misc/vidc/Kconfig"
 
 endif # MISC_DEVICES
