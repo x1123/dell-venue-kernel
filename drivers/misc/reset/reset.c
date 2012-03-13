@@ -1,7 +1,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include "../../../../../android/kernel/arch/arm/mach-msm/proc_comm.h"
+#include "../../../arch/arm/mach-msm/proc_comm.h"
 
 MODULE_LICENSE("Dual BSD/GPL");
 
