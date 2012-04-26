@@ -1504,7 +1504,8 @@ static int vidioc_reqbufs(struct file *file, void *priv,
 	struct gspca_dev *gspca_dev = priv;
 	int i, ret = 0, streaming;
 
-	switch (rb->memory) {
+	i = rb->memory;			/* (avoid compilation warning) */
+	switch (i) {
 	case GSPCA_MEMORY_READ:			/* (internal call) */
 	case V4L2_MEMORY_MMAP:
 	case V4L2_MEMORY_USERPTR:
