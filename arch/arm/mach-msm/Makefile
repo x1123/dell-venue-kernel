@@ -136,7 +136,7 @@ ifdef CONFIG_HW_AUSTIN
 else
 ifdef CONFIG_HW_TOUCAN
         obj-$(CONFIG_MACH_QSD8X50_SURF) += board-qsd8x50_toucan.o
-        obj-$(CONFIG_MACH_QSD8X50_FFA)  _= board-qsd8x50_toucan.o
+        obj-$(CONFIG_MACH_QSD8X50_FFA)  += board-qsd8x50_toucan.o
 else
 ifdef CONFIG_HW_SURF
         obj-$(CONFIG_MACH_QSD8X50_SURF) += board-qsd8x50.o
